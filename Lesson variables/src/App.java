@@ -13,4 +13,5 @@ public class App {
 
      Double num = Math.random();
      System.out.println(num);
-}
+      
+} 
