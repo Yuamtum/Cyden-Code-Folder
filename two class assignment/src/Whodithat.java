@@ -1,14 +1,14 @@
 
 public class Whodithat {
     public static void speak() {
-        System.out.println("Who made this mess");
+        System.out.println("Neon rotating to mid");
     }
 
 
     public void sayName(){
 
-    System.out.println("You did king");
-    speak();
+    System.out.println("Nah they're camping garage");
+    
 
 
     }
