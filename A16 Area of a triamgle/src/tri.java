@@ -1,23 +1,59 @@
-public class tri {
+import java.util.Scanner; 
+import java.lang.Math.*;
 
-    public void perimeter(int a , int b, int c){
+public class tri
+{
+	private int sideA, sideB, sideC;
+	private double perimeter;
+	private double theArea;
+    Scanner keyboard = new Scanner(System.in);
 
-        int sida = a;
-        int sidb = b;
-        int sidc = c;
+	public tri()
+	{
+	   setSides(0,0,0);
+	   perimeter=0;
+	   theArea=0;
+	}
 
-        int peri = sida + sidb + sidc;
-        System.out.println(peri);
-  
-    }
+	public tri(int a, int b, int c)
+	{
+        a = sideA;
+        b = sideB;
+        c = sideC;
+    
+	}
 
 
-    public void side(){
-
+	public void setSides(int a, int b, int c)
+	{
+        a = keyboard.nextInt();
+        b = keyboard.nextInt();
+        c = keyboard.nextInt();
     
 
 
-    }
+	}
+
+	public void calcPerimeter( )
+	{
+        
 
 
+
+	}
+
+	public void calcArea( )
+	{
+		double s;
+		
+
+
+	}
+
+	public void print( )
+	{
+
+
+		System.out.println("\n\n");
+	}
 }
