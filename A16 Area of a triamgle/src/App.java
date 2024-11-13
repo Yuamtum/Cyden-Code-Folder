@@ -18,8 +18,9 @@ public class App
 
 
 		tri test = new tri(a, b, c);
-		test.perimeter();
-		test.calcArea();
+		test.calcPerimeter(c);
+		test.calcArea(a, b, c);
+
 		test.print();
 
 
@@ -35,8 +36,8 @@ public class App
 
 
 		test.setSides(a,b,c);
-		test.perimeter();
-		test.calcArea();
+		test.calcPerimeter(c);
+		test.calcArea(a, b, c);
 		test.print();
 
 

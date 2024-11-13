@@ -17,34 +17,43 @@ public class tri
 
 	public tri(int a, int b, int c)
 	{
-        a = sideA;
-        b = sideB;
-        c = sideC;
+        sideA = a;
+        sideB = b;
+		sideC = c;
     
 	}
 
 
 	public void setSides(int a, int b, int c)
 	{
-        a = keyboard.nextInt();
-        b = keyboard.nextInt();
-        c = keyboard.nextInt();
+        System.out.print("Enter side A::   ");
+		a = keyboard.nextInt();
+		System.out.print("Enter side B::   ");
+		b = keyboard.nextInt();
+		System.out.print("Enter side C::   ");
+
     
 
 
 	}
 
-	public void calcPerimeter( )
+	public void calcPerimeter(double perimeter)
 	{
-        
+        perimeter = sideA + sideB + sideC;
+		System.out.println("The perimeter is" + perimeter);
+
 
 
 
 	}
 
-	public void calcArea( )
+	public void calcArea(double a, double b , double c )
 	{
-		double s;
+		double perimeter = sideA + sideB + sideC;
+		double s = perimeter/2;
+	    theArea = Math.sqrt(s*(s-a)*(s-b)*(s-c));
+		System.out.println("The area is"  + theArea);
+
 		
 
 

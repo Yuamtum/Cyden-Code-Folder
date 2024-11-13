@@ -34,7 +34,7 @@ public class App {
         //Equivillant While 
         int x = 0;
         while(x>0) {
-            System.out.println("The numer is" + x);
+            System.out.println("The number is" + x);
             x--;
         }
     }
