@@ -8,28 +8,22 @@ public class Cool
 	 *it will return false otherwize
 	 */
 	public static boolean isCool( int num ){
-	 	if (num % 3 == 1);{
+	 	for (num % 3 == 1){
 
         return true;
-    	} if (num % 4 == 1);{
-        return true;
-
-   		 } if (num % 5 == 1);{
-        return true;
-   		 } if (num % 6 == 1);{
-        	return true;
-    	 } else{
-			return false;
-			}
-
+    
     }
+	
 	
 		/*
 	 *method countCoolNumbers will return the count
 	 *of the coolNumbers between 6 and stop
 	 */
 	public static int countCool( int stop){
+		stop = 6;
 		return 0;
 
 	}
+
+}
 }
