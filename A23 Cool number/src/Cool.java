@@ -1,4 +1,3 @@
-import static java.lang.System.*;
 
 public class Cool 
 {
@@ -19,8 +18,8 @@ public class Cool
 	 *method countCoolNumbers will return the count
 	 *of the coolNumbers between 6 and stop
 	 */
-	public static int countCool( int stop){
-		stop = 6;
+	public static int countCool(int stop); {
+		stop = 6;  
 		return 0;
 
 	}

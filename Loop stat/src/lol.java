@@ -29,6 +29,24 @@ public class lol
         }
         System.out.println("The sum is: " + sum);
 
+        all = 0;
+        for(int i = 0; i<stop.length; i++) {
+            if(stop[i] % 2 ==0) {
+                all++;
+                
+            }
+
+        mall = 0;
+        for(int i = 0; i<stop.length; i++) {
+            if(stop[i] % 2 ==0) {
+                mall++;
+            }
+        }
+        }
+        System.out.println("There are " + all + "even numbers");
+        System.out.println("There are " + mall + " odd numbers");
+
+
         
 
     }

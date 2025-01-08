@@ -51,7 +51,8 @@ public class App {
                 count++;
             }
         }
-        System.out.println("There are " + count + "even nummbers");if
+        System.out.println("There are " + count + "even nummbers");
     }
 
 }
+z
